@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(211, 230, 246);
+}
+
+.container{
+    height: 600px;
+    width: 450px;
+    padding-top: 50px;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+}
+
+.container form {
+    border-radius: 3%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+.container input[type=textfield]{
+    height: 25%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Poppins', sans-serif;
+    background-color:  rgba(0, 0, 0, 0.133);
+    color:  rgb(255, 254, 254);
+    padding: 15px;
+    text-align: right;
+    font-size: 60px;
+    border: 0;
+    outline: none;
+}
+
+.container input[type=button],input[type=reset]{
+    width: 18%;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.container input[type=reset]{
+    color: #000;
+}
+
+.container .orange{
+    background-color: rgba(253, 149, 3, 0.997);
+    color: rgb(255, 255, 255);
+}
+
+.container .gray{
+    background-color: rgba(51, 51, 51, 0.997);
+    color: rgb(255, 255, 255);
+}
+
+
+
